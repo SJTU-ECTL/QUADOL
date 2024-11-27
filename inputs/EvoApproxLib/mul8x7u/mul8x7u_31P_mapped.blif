@@ -1,0 +1,37 @@
+# Benchmark "mul8x7u
+.model mul8x7u
+.inputs A[0] A[1] A[2] A[3] A[4] A[5] A[6] A[7] B[0] B[1] B[2] B[3] B[4] \
+ B[5] B[6]
+.outputs O[0] O[1] O[2] O[3] O[4] O[5] O[6] O[7] O[8] O[9] O[10] O[11] \
+ O[12] O[13] O[14]
+.names A[5] B[4] O[3]
+11 1
+.names A[6] B[5] O[12]
+11 1
+.names A[7] B[6] O[14]
+11 1
+.names O[0]
+ 0
+.names O[1]
+ 0
+.names O[2]
+ 0
+.names O[4]
+ 0
+.names O[5]
+ 0
+.names O[6]
+ 0
+.names O[7]
+ 0
+.names O[8]
+ 0
+.names O[9]
+ 0
+.names O[10]
+ 0
+.names O[13]
+ 0
+.names A[5] B[4] O[11]
+11 1
+.end

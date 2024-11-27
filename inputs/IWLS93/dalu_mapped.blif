@@ -1,0 +1,1011 @@
+# Benchmark "top" written by ABC on Fri Sep  6 09:28:21 2024
+.model top
+.inputs pina0 pinb1 pinc2 pind3 pina1 pinb0 pinc3 pind2 pmusel1 pinc4 pind5 \
+ pmusel2 pinc5 pind4 pmusel3 pina4 pinb5 pina5 pinb4 pina2 pinb3 pinc0 \
+ pind1 pina3 pinb2 pinc1 pind0 pind15 pinc15 pind14 pinb15 pinc14 pind13 \
+ popsel3 popsel1 popsel2 pina11 pinb10 pina10 popsel0 pina15 pinb14 pinc13 \
+ pind12 pina14 pinb13 pinc12 pind11 pina13 pinb12 pinc11 pind10 pina12 \
+ pinb11 pinc10 pina8 pinb9 pina9 pinb8 pina6 pinb7 pina7 pinb6 psh0 pinc6 \
+ pind7 pmusel4 psh1 pinc7 pind6 psh2 pinc8 pind9 pinc9 pind8
+.outputs po12 po11 po14 po13 po15 po9 po8 po7 po6 po5 po4 po3 po2 po1 po0 \
+ po10
+.names new_n182 new_n163 new_n94 popsel1 popsel0 new_n191 po12
+--0011 1
+--0101 1
+-1---- 1
+0--001 1
+.names new_n158 new_n162 new_n95 new_n94
+-11 1
+000 1
+1-1 1
+.names new_n96 new_n155 new_n157 new_n138 new_n95
+---1 0
+001- 0
+.names new_n97 new_n103 new_n136 new_n117 new_n130 new_n137 new_n96
+---000 1
+--1-00 1
+00--00 1
+.names new_n101 new_n102 new_n98 new_n97
+001 1
+111 1
+.names new_n100 new_n99 pmusel4 new_n98
+-10 1
+0-0 1
+.names pmusel1 pmusel2 pind3 pmusel3 new_n99
+0011 1
+.names pinb3 pina3 pinc3 pmusel3 pmusel1 pmusel2 new_n100
+--1011 0
+-1-010 0
+1--001 0
+.names popsel0 popsel3 popsel2 popsel1 new_n101
+0011 1
+0100 1
+.names pinc3 pina3 pmusel4 pmusel1 pmusel2 pmusel3 new_n102
+-10011 0
+-10101 0
+1-0111 0
+1-1000 0
+.names new_n104 new_n108 new_n110 new_n106 new_n112 new_n116 new_n103
+--0010 1
+-1-010 1
+-100-0 1
+1--0-0 1
+1-0-10 1
+11--10 1
+110--0 1
+.names pmusel1 pmusel2 pind2 pmusel3 new_n105 pmusel4 new_n104
+----00 1
+0011-0 1
+.names pinb2 pina2 pinc2 pmusel3 pmusel1 pmusel2 new_n105
+--1011 0
+-1-010 0
+1--001 0
+.names new_n101 new_n107 new_n106
+01 1
+10 1
+.names pinc2 pina2 pmusel4 pmusel1 pmusel2 pmusel3 new_n107
+-10011 0
+-10101 0
+1-0111 0
+1-1000 0
+.names pmusel1 pmusel2 pmusel3 pind1 new_n109 pmusel4 new_n108
+----00 1
+0011-0 1
+.names pinc1 pina1 pinb1 pmusel3 pmusel2 pmusel1 new_n109
+--1010 0
+-1-001 0
+1--011 0
+.names new_n101 new_n111 new_n110
+01 1
+10 1
+.names pina1 pinc1 pmusel1 pmusel2 pmusel3 pmusel4 new_n111
+-10001 0
+-11110 0
+1-0110 0
+1-1010 0
+.names new_n114 new_n113 new_n101 pmusel4 new_n115 new_n112
+--1-1 1
+-1-00 1
+0--00 1
+.names pmusel1 pmusel2 pmusel3 pind0 new_n113
+0011 1
+.names pinc0 pinb0 pina0 pmusel3 pmusel1 pmusel2 new_n114
+--1010 0
+-1-001 0
+1--011 0
+.names pina0 pinc0 pmusel1 pmusel2 pmusel3 pmusel4 new_n115
+-10001 0
+-11110 0
+1-0110 0
+1-1010 0
+.names pmusel4 new_n99 new_n100 new_n101 new_n102 new_n116
+-0101 1
+-0110 1
+1--01 1
+1--10 1
+.names new_n124 new_n122 new_n118 new_n126 new_n117
+-100 1
+0-00 1
+.names pmusel4 new_n119 new_n120 new_n101 new_n121 new_n118
+-0101 1
+-0110 1
+1--01 1
+1--10 1
+.names pmusel1 pmusel2 pmusel3 pind7 new_n119
+0011 1
+.names pinb7 pina7 pinc7 pmusel3 pmusel1 pmusel2 new_n120
+--1011 0
+-1-010 0
+1--001 0
+.names pina7 pinc7 pmusel1 pmusel2 pmusel3 pmusel4 new_n121
+-10001 0
+-11110 0
+1-0110 0
+1-1010 0
+.names pmusel1 pmusel2 pmusel3 pind6 new_n123 pmusel4 new_n122
+----00 1
+0011-0 1
+.names pinb6 pina6 pinc6 pmusel3 pmusel1 pmusel2 new_n123
+--1011 0
+-1-010 0
+1--001 0
+.names new_n101 new_n125 new_n124
+01 1
+10 1
+.names pina6 pinc6 pmusel1 pmusel2 pmusel3 pmusel4 new_n125
+-10001 0
+-11110 0
+1-0110 0
+1-1010 0
+.names new_n127 pmusel3 new_n128 new_n129 new_n101 pmusel4 new_n126
+---00- 0
+---11- 0
+--0--0 0
+11---0 0
+.names pmusel1 pmusel2 pind5 new_n127
+001 1
+.names pinb5 pina5 pinc5 pmusel3 pmusel1 pmusel2 new_n128
+--1011 0
+-1-010 0
+1--001 0
+.names pina5 pinc5 pmusel1 pmusel2 pmusel3 pmusel4 new_n129
+-10001 0
+-11110 0
+1-0110 0
+1-1010 0
+.names new_n135 new_n126 new_n131 new_n122 new_n124 new_n118 new_n130
+---100 1
+-01-00 1
+-011-0 1
+1---00 1
+1--1-0 1
+.names new_n132 new_n133 pmusel4 new_n134 new_n101 new_n131
+-0000 1
+-0011 1
+1-000 1
+1-011 1
+.names pmusel1 pmusel3 pmusel2 pinb4 new_n132
+0011 1
+.names pind4 pina4 pinc4 pmusel2 pmusel1 pmusel3 new_n133
+--1110 0
+-1-010 0
+1--001 0
+.names pinc4 pina4 pmusel1 pmusel4 pmusel2 pmusel3 new_n134
+-10011 0
+-11001 0
+1-0100 0
+1-1011 0
+.names new_n128 new_n127 pmusel3 pmusel4 new_n101 new_n129 new_n135
+-11000 1
+-11011 1
+0--000 1
+0--011 1
+.names pmusel4 new_n132 new_n133 new_n101 new_n134 new_n136
+-0101 1
+-0110 1
+1--01 1
+1--10 1
+.names new_n119 new_n120 pmusel4 new_n121 new_n101 new_n137
+-0000 1
+-0011 1
+1-000 1
+1-011 1
+.names new_n151 new_n139 new_n153 new_n101 new_n154 new_n138
+-0001 0
+-0010 0
+0--01 0
+0--10 0
+000-- 0
+.names new_n140 new_n146 new_n101 new_n150 new_n142 new_n139
+-1000 1
+-1110 1
+1-000 1
+1-110 1
+11--0 1
+.names pmusel1 pmusel2 pmusel3 pind9 new_n141 pmusel4 new_n140
+----00 1
+0011-0 1
+.names pinb9 pina9 pinc9 pmusel3 pmusel1 pmusel2 new_n141
+--1011 0
+-1-010 0
+1--001 0
+.names pmusel4 new_n143 new_n144 new_n101 new_n145 new_n142
+-0101 1
+-0110 1
+1--01 1
+1--10 1
+.names pmusel1 pmusel2 pmusel3 pind10 new_n143
+0011 1
+.names pinb10 pina10 pinc10 pmusel3 pmusel1 pmusel2 new_n144
+--1011 0
+-1-010 0
+1--001 0
+.names pina10 pinc10 pmusel1 pmusel2 pmusel3 pmusel4 new_n145
+-10001 0
+-11110 0
+1-0110 0
+1-1010 0
+.names new_n147 new_n148 pmusel4 new_n149 new_n101 new_n146
+-0000 1
+-0011 1
+1-000 1
+1-011 1
+.names pmusel1 pmusel2 pmusel3 pind8 new_n147
+0011 1
+.names pinb8 pina8 pinc8 pmusel3 pmusel1 pmusel2 new_n148
+--1011 0
+-1-010 0
+1--001 0
+.names pina8 pinc8 pmusel1 pmusel2 pmusel3 pmusel4 new_n149
+-10001 0
+-11110 0
+1-0110 0
+1-1010 0
+.names pina9 pinc9 pmusel1 pmusel2 pmusel3 pmusel4 new_n150
+-10001 0
+-11110 0
+1-0110 0
+1-1010 0
+.names pmusel1 pmusel2 pmusel3 pind11 new_n152 pmusel4 new_n151
+----00 1
+0011-0 1
+.names pinb11 pina11 pinc11 pmusel3 pmusel1 pmusel2 new_n152
+--1011 0
+-1-010 0
+1--001 0
+.names new_n143 new_n144 pmusel4 new_n145 new_n101 new_n153
+-0000 1
+-0011 1
+1-000 1
+1-011 1
+.names pina11 pinc11 pmusel1 pmusel2 pmusel3 pmusel4 new_n154
+-10001 0
+-11110 0
+1-0110 0
+1-1010 0
+.names new_n156 new_n101 new_n149 new_n155
+001 1
+010 1
+.names new_n148 new_n147 pmusel4 new_n156
+-10 1
+0-0 1
+.names new_n142 new_n151 new_n154 new_n140 new_n150 new_n101 new_n157
+---001 0
+---010 0
+-00--1 0
+-01--0 0
+1----- 0
+.names new_n159 new_n101 new_n161 new_n158
+001 1
+010 1
+.names pmusel1 pmusel2 pmusel3 pind12 new_n160 pmusel4 new_n159
+----00 1
+0011-0 1
+.names pinb12 pina12 pinc12 pmusel3 pmusel1 pmusel2 new_n160
+--1011 0
+-1-010 0
+1--001 0
+.names pina12 pinc12 pmusel1 pmusel2 pmusel3 pmusel4 new_n161
+-10001 0
+-11110 0
+1-0110 0
+1-1010 0
+.names new_n101 new_n161 new_n159 new_n162
+001 1
+111 1
+.names new_n182 new_n164 new_n189 popsel3 new_n190 popsel2 new_n163
+-00000 1
+-00011 1
+-11000 1
+-11011 1
+0--001 1
+.names new_n177 new_n178 new_n179 new_n180 new_n181 new_n165 new_n164
+000001 1
+.names new_n174 new_n175 new_n176 new_n169 new_n166 new_n165
+00011 1
+11101 1
+.names new_n167 new_n170 new_n166
+01 1
+.names pinc3 pina3 new_n168 pmusel1 pmusel2 new_n169 new_n167
+---000 1
+---110 1
+--0--0 1
+-0--00 1
+-11101 1
+0---10 1
+1-1011 1
+.names pmusel3 pmusel4 new_n168
+01 1
+.names pinc15 pina15 pmusel3 pmusel1 pmusel2 pmusel4 new_n169
+-10101 1
+1-0011 1
+.names new_n171 new_n172 new_n173 new_n169 new_n170
+0001 1
+.names pina2 pinc2 pmusel3 pmusel2 pmusel1 pmusel4 new_n171
+-10101 1
+1-0011 1
+.names pinc1 pina1 pmusel3 pmusel1 pmusel2 pmusel4 new_n172
+-10101 1
+1-0011 1
+.names pinc0 pina0 pmusel3 pmusel1 pmusel2 pmusel4 new_n173
+-10101 1
+1-0011 1
+.names pinc10 pina10 pmusel1 pmusel2 new_n168 new_n174
+-1101 1
+1-011 1
+.names pinc9 pina9 pmusel1 pmusel2 new_n168 new_n175
+-1101 1
+1-011 1
+.names pinc8 pina8 pmusel1 pmusel2 new_n168 new_n176
+-1101 1
+1-011 1
+.names pinc11 pina11 pmusel1 pmusel2 new_n168 new_n177
+-1101 1
+1-011 1
+.names pina6 pinc6 new_n168 pmusel1 pmusel2 new_n169 new_n178
+---000 1
+---110 1
+--0--0 1
+-0--10 1
+-11011 1
+0---00 1
+1-1101 1
+.names pina5 pinc5 new_n168 pmusel1 pmusel2 new_n169 new_n179
+---000 1
+---110 1
+--0--0 1
+-0--10 1
+-11011 1
+0---00 1
+1-1101 1
+.names pina7 pinc7 new_n168 pmusel1 pmusel2 new_n169 new_n180
+---000 1
+---110 1
+--0--0 1
+-0--10 1
+-11011 1
+0---00 1
+1-1101 1
+.names pina4 pinc4 new_n168 pmusel1 pmusel2 new_n169 new_n181
+---000 1
+---110 1
+--0--0 1
+-0--10 1
+-11011 1
+0---00 1
+1-1101 1
+.names new_n185 psh2 new_n187 psh0 psh1 new_n183 new_n182
+--1-00 1
+--10-0 1
+-0---0 1
+1--110 1
+.names new_n188 new_n187 new_n184 psh1 psh2 psh0 new_n183
+--0-00 1
+-0-101 1
+0--001 1
+.names new_n186 new_n185 psh1 new_n184
+-10 1
+1-1 1
+.names pinb12 pind12 pmusel1 pmusel2 pmusel3 pmusel4 new_n185
+-10001 0
+-11110 0
+1-0110 0
+1-1010 0
+.names pinb14 pind14 pmusel1 pmusel2 pmusel3 pmusel4 new_n186
+-10001 0
+-11110 0
+1-0110 0
+1-1010 0
+.names pinb15 pind15 pmusel1 pmusel2 pmusel3 pmusel4 new_n187
+-10001 0
+-11110 0
+1-0110 0
+1-1010 0
+.names pinb13 pind13 pmusel1 pmusel2 pmusel3 pmusel4 new_n188
+-10001 0
+-11110 0
+1-0110 0
+1-1010 0
+.names pina12 pinc12 new_n168 pmusel1 pmusel2 new_n169 new_n189
+---000 1
+---110 1
+--0--0 1
+-0--10 1
+-11011 1
+0---00 1
+1-1101 1
+.names popsel1 popsel0 new_n190
+00 1
+.names popsel2 popsel3 new_n191
+01 1
+.names new_n193 new_n197 new_n198 new_n190 popsel3 popsel2 po11
+--0001 1
+--0110 1
+-1-000 1
+-1-101 1
+1---10 1
+.names new_n194 new_n142 new_n153 new_n195 new_n196 new_n193
+--101 1
+-1011 1
+0-011 1
+10-01 1
+.names new_n96 new_n140 new_n156 new_n101 new_n149 new_n150 new_n194
+--1000 1
+--1111 1
+-1-0-0 1
+-1-1-1 1
+-11-01 1
+-11-10 1
+0--000 1
+0--111 1
+0-10-0 1
+0-11-1 1
+01--01 1
+01--10 1
+011--- 1
+.names new_n151 new_n101 new_n154 new_n195
+000 1
+011 1
+101 1
+110 1
+.names popsel1 popsel0 new_n196
+01 1
+10 1
+.names new_n165 new_n177 new_n169 new_n197
+001 1
+010 1
+.names new_n200 psh2 new_n187 psh0 psh1 new_n199 new_n198
+--1-00 1
+--10-0 1
+-0---0 1
+1--110 1
+.names new_n200 new_n188 new_n184 psh1 psh2 psh0 new_n199
+--0-01 1
+-0-100 1
+0--000 1
+.names pinb11 pind11 pmusel1 pmusel2 pmusel3 pmusel4 new_n200
+-10001 0
+-11110 0
+1-0110 0
+1-1010 0
+.names new_n216 new_n210 new_n202 new_n217 new_n196 new_n191 po14
+--0011 1
+--1111 1
+-1---- 1
+1----1 1
+.names new_n203 new_n209 new_n202
+00 1
+.names new_n155 new_n96 new_n157 new_n162 new_n138 new_n204 new_n203
+----11 1
+---1-1 1
+001--1 1
+.names new_n207 new_n205 new_n158 new_n204
+-00 1
+1-0 1
+.names new_n101 new_n206 new_n205
+01 1
+10 1
+.names pina13 pinc13 pmusel1 pmusel2 pmusel3 pmusel4 new_n206
+-10001 0
+-11110 0
+1-0110 0
+1-1010 0
+.names pmusel1 pmusel2 pmusel3 pind13 new_n208 pmusel4 new_n207
+----00 1
+0011-0 1
+.names pinb13 pina13 pinc13 pmusel3 pmusel1 pmusel2 new_n208
+--1011 0
+-1-010 0
+1--001 0
+.names new_n205 new_n207 new_n209
+01 1
+.names new_n213 new_n189 new_n215 new_n164 new_n214 new_n211 new_n210
+---001 1
+--1-01 1
+-00111 1
+-1--01 1
+1----1 1
+.names new_n212 new_n190 popsel3 popsel2 new_n211
+-000 1
+-101 1
+0-01 1
+.names new_n186 new_n187 psh0 psh1 psh2 new_n212
+-1-01 1
+-1-10 1
+-10-1 1
+-11-0 1
+1-000 1
+1-111 1
+.names new_n190 popsel2 new_n213
+01 1
+.names pina14 pinc14 new_n168 pmusel1 pmusel2 new_n169 new_n214
+---000 1
+---110 1
+--0--0 1
+-0--10 1
+-11011 1
+0---00 1
+1-1101 1
+.names pina13 pinc13 new_n168 pmusel1 pmusel2 new_n169 new_n215
+---000 1
+---110 1
+--0--0 1
+-0--10 1
+-11011 1
+0---00 1
+1-1101 1
+.names new_n212 new_n190 new_n216
+01 1
+.names new_n218 new_n220 new_n217
+00 1
+11 1
+.names new_n101 new_n219 new_n218
+01 1
+10 1
+.names pina14 pinc14 pmusel1 pmusel2 pmusel3 pmusel4 new_n219
+-10001 0
+-11110 0
+1-0110 0
+1-1010 0
+.names pmusel1 pmusel2 pmusel3 pind14 new_n221 pmusel4 new_n220
+----00 1
+0011-0 1
+.names pinb14 pina14 pinc14 pmusel3 pmusel1 pmusel2 new_n221
+--1011 0
+-1-010 0
+1--001 0
+.names new_n223 new_n224 new_n225 new_n190 popsel3 popsel2 po13
+--0001 1
+--0110 1
+-1-000 1
+-1-101 1
+1---10 1
+.names new_n95 new_n162 new_n158 new_n205 new_n207 new_n196 new_n223
+--1001 1
+--1111 1
+-10011 1
+-10101 1
+0-0011 1
+0-0101 1
+10-001 1
+10-111 1
+.names new_n189 new_n164 new_n215 new_n224
+-00 1
+011 1
+1-0 1
+.names new_n186 new_n188 new_n187 psh0 psh1 psh2 new_n225
+--1-01 1
+--1-10 1
+--10-1 1
+-1-000 1
+-1-111 1
+1--100 1
+.names new_n228 new_n227 new_n187 new_n190 popsel3 popsel2 po15
+--0001 1
+--0110 1
+-1-000 1
+-1-101 1
+1---10 1
+.names new_n189 new_n214 new_n215 new_n164 new_n227
+0001 1
+.names new_n203 new_n209 new_n218 new_n220 new_n229 new_n196 new_n228
+--0101 1
+--1011 1
+-1-101 1
+-10-01 1
+00-011 1
+001-11 1
+1--101 1
+1-0-01 1
+.names new_n230 new_n101 new_n232 new_n229
+000 1
+011 1
+101 1
+110 1
+.names pmusel1 pmusel2 pmusel3 pind15 new_n231 pmusel4 new_n230
+----00 1
+0011-0 1
+.names pinb15 pina15 pinc15 pmusel3 pmusel1 pmusel2 new_n231
+--1011 0
+-1-010 0
+1--001 0
+.names pina15 pinc15 pmusel1 pmusel2 pmusel3 pmusel4 new_n232
+-10001 0
+-11110 0
+1-0110 0
+1-1010 0
+.names new_n236 new_n234 new_n238 new_n190 popsel3 popsel2 po9
+--0001 1
+--0110 1
+-1-000 1
+-1-101 1
+1---10 1
+.names new_n235 new_n175 new_n169 new_n234
+001 1
+010 1
+.names new_n177 new_n165 new_n235
+01 1
+.names new_n96 new_n155 new_n146 new_n237 new_n196 new_n236
+--101 1
+-1011 1
+00-01 1
+1-011 1
+.names new_n140 new_n101 new_n150 new_n237
+000 1
+011 1
+101 1
+110 1
+.names new_n185 psh2 new_n244 new_n239 new_n242 psh0 new_n238
+---1-- 0
+--0-01 0
+00--01 0
+.names new_n241 new_n188 new_n240 psh2 psh0 psh1 new_n239
+--0-01 1
+-0-100 1
+0--000 1
+.names new_n200 new_n187 psh2 new_n240
+-11 1
+1-0 1
+.names pinb9 pind9 pmusel1 pmusel2 pmusel3 pmusel4 new_n241
+-10001 0
+-11110 0
+1-0110 0
+1-1010 0
+.names new_n243 new_n186 psh1 psh2 new_n242
+-101 1
+1-00 1
+.names pinb10 pind10 pmusel1 pmusel2 pmusel3 pmusel4 new_n243
+-10001 0
+-11110 0
+1-0110 0
+1-1010 0
+.names psh2 new_n241 psh1 new_n244
+-11 1
+0-1 1
+.names new_n248 new_n246 new_n252 popsel1 popsel0 new_n191 po8
+--0011 1
+--0101 1
+-1---- 1
+1--001 1
+.names new_n248 new_n247 new_n235 popsel3 new_n190 popsel2 new_n246
+-00000 1
+-00011 1
+1--001 1
+.names new_n176 new_n169 new_n247
+00 1
+11 1
+.names new_n251 new_n249 psh0 new_n248
+-11 1
+1-0 1
+.names new_n250 new_n241 new_n200 new_n188 psh2 psh1 new_n249
+---010 1
+--0-01 1
+-0--00 1
+0---11 1
+.names pinb8 pind8 pmusel1 pmusel2 pmusel3 pmusel4 new_n250
+-10001 0
+-11110 0
+1-0110 0
+1-1010 0
+.names new_n250 new_n243 new_n187 new_n185 psh2 psh1 new_n251
+---010 1
+--0-11 1
+-0--01 1
+0---00 1
+.names new_n155 new_n146 new_n96 new_n252
+-11 1
+000 1
+1-1 1
+.names new_n254 new_n259 new_n257 new_n190 popsel2 popsel3 po7
+--0000 1
+--0110 1
+-1-101 1
+-10-10 1
+1---01 1
+.names new_n255 new_n122 new_n118 new_n137 new_n124 new_n196 new_n254
+-00011 1
+-1-101 1
+-11-01 1
+0--101 1
+0-1-01 1
+01-1-1 1
+011--1 1
+1-0011 1
+1000-1 1
+.names new_n126 new_n256 new_n135 new_n255
+-10 1
+1-0 1
+.names new_n103 new_n97 new_n136 new_n131 new_n256
+--10 1
+00-0 1
+.names new_n178 new_n179 new_n258 new_n213 new_n180 new_n257
+--001 1
+-1-01 1
+00100 1
+1--01 1
+.names new_n181 new_n166 new_n258
+01 1
+.names new_n262 new_n260 psh0 new_n259
+-11 1
+1-0 1
+.names new_n261 new_n250 new_n243 new_n185 psh2 psh1 new_n260
+---010 1
+--0-01 1
+-0--00 1
+0---11 1
+.names pinb7 pind7 pmusel1 pmusel2 pmusel3 pmusel4 new_n261
+-10001 0
+-11110 0
+1-0110 0
+1-1010 0
+.names new_n261 new_n241 new_n200 new_n187 psh2 psh1 new_n262
+---011 1
+--0-10 1
+-0--01 1
+0---00 1
+.names new_n264 new_n265 new_n266 new_n190 popsel3 popsel2 po6
+--1001 1
+--1110 1
+-1-000 1
+-1-101 1
+1---10 1
+.names new_n255 new_n122 new_n124 new_n196 new_n264
+0011 1
+0101 1
+1001 1
+1111 1
+.names new_n179 new_n258 new_n178 new_n265
+-00 1
+011 1
+1-0 1
+.names new_n186 psh2 new_n269 new_n267 new_n270 psh0 new_n266
+---1-1 1
+--0-00 1
+01--00 1
+.names new_n268 new_n261 new_n241 new_n200 psh2 psh1 new_n267
+---010 1
+--0-01 1
+-0--00 1
+0---11 1
+.names pinb6 pind6 pmusel1 pmusel2 pmusel3 pmusel4 new_n268
+-10001 0
+-11110 0
+1-0110 0
+1-1010 0
+.names psh2 new_n250 psh1 new_n269
+-11 1
+1-1 1
+.names new_n268 new_n243 psh1 psh2 new_n270
+-101 1
+1-00 1
+.names new_n272 new_n273 new_n274 new_n190 popsel3 popsel2 po5
+--1001 1
+--1110 1
+-1-000 1
+-1-101 1
+1---10 1
+.names new_n126 new_n135 new_n256 new_n196 new_n272
+-101 1
+0011 1
+1-01 1
+.names new_n258 new_n179 new_n273
+00 1
+11 1
+.names new_n276 psh2 new_n269 new_n275 new_n270 psh0 new_n274
+---1-0 1
+--0-01 1
+01--01 1
+.names new_n276 new_n261 new_n241 new_n188 psh2 psh1 new_n275
+---011 1
+--0-10 1
+-0--01 1
+0---00 1
+.names pind5 pinb5 pmusel1 pmusel4 pmusel2 pmusel3 new_n276
+-10011 0
+-11001 0
+1-0100 0
+1-1011 0
+.names new_n280 new_n279 new_n278 popsel1 popsel0 new_n191 po4
+--0011 1
+--0101 1
+-1---- 1
+1--001 1
+.names new_n97 new_n136 new_n131 new_n103 new_n278
+-001 1
+0-10 1
+01-0 1
+100- 1
+.names new_n280 new_n166 new_n181 popsel3 new_n190 popsel2 new_n279
+-00000 1
+-00011 1
+-11000 1
+-11011 1
+1--001 1
+.names new_n185 psh2 new_n283 new_n281 new_n284 psh0 new_n280
+---1-1 1
+--0-00 1
+01--00 1
+.names new_n282 new_n276 new_n261 new_n241 psh2 psh1 new_n281
+---010 1
+--0-01 1
+-0--00 1
+0---11 1
+.names pinb4 pind4 pmusel1 pmusel2 pmusel3 pmusel4 new_n282
+-10001 0
+-11110 0
+1-0110 0
+1-1010 0
+.names psh2 new_n268 psh1 new_n283
+-11 1
+1-1 1
+.names new_n282 new_n250 psh1 psh2 new_n284
+-101 1
+1-00 1
+.names new_n286 new_n290 new_n293 new_n190 popsel3 popsel2 po3
+--1000 1
+--1101 1
+-1-001 1
+-1-110 1
+1---10 1
+.names new_n287 new_n289 new_n98 new_n101 new_n102 new_n196 new_n286
+-10001 1
+-10111 1
+-11011 1
+-11101 1
+000011 1
+000101 1
+001001 1
+001111 1
+1-0001 1
+1-0111 1
+1-1011 1
+1-1101 1
+.names new_n106 new_n104 new_n288 new_n287
+-00 1
+1-0 1
+.names new_n108 new_n110 new_n112 new_n288
+-01 1
+1-1 1
+10- 1
+.names new_n104 new_n106 new_n289
+01 1
+.names new_n292 psh2 new_n283 new_n291 new_n284 psh0 new_n290
+---1-0 1
+--0-01 1
+01--01 1
+.names new_n292 new_n276 new_n261 new_n200 psh2 psh1 new_n291
+---011 1
+--0-10 1
+-0--01 1
+0---00 1
+.names pind3 pinb3 pmusel4 pmusel1 pmusel2 pmusel3 new_n292
+-10011 0
+-10101 0
+1-0111 0
+1-1000 0
+.names new_n167 new_n170 new_n293
+00 1
+11 1
+.names new_n295 new_n296 new_n300 new_n190 popsel3 popsel2 po2
+--0000 1
+--0101 1
+-1-110 1
+-10-01 1
+1---10 1
+.names new_n288 new_n104 new_n106 new_n196 new_n295
+0001 1
+0111 1
+1011 1
+1101 1
+.names new_n299 new_n297 psh0 new_n296
+-11 1
+1-0 1
+.names new_n298 new_n292 new_n276 new_n261 psh2 psh1 new_n297
+---010 1
+--0-01 1
+-0--00 1
+0---11 1
+.names pind2 pinb2 pmusel4 pmusel1 pmusel2 pmusel3 new_n298
+-10011 0
+-10101 0
+1-0111 0
+1-1000 0
+.names new_n298 new_n282 new_n268 new_n243 psh2 psh1 new_n299
+---011 1
+--0-10 1
+-0--01 1
+0---00 1
+.names new_n172 new_n173 new_n169 new_n213 new_n171 new_n300
+--000 1
+-1101 1
+00-00 1
+1-101 1
+.names new_n306 new_n302 new_n307 new_n190 popsel3 popsel2 po1
+--0000 1
+--0101 1
+-1-110 1
+-10-01 1
+1---10 1
+.names new_n292 psh2 new_n244 new_n303 new_n305 psh0 new_n302
+---1-1 1
+--0-00 1
+00--00 1
+.names new_n304 new_n298 new_n282 new_n268 psh2 psh1 new_n303
+---010 1
+--0-01 1
+-0--00 1
+0---11 1
+.names pinb1 pind1 pmusel1 pmusel2 pmusel3 pmusel4 new_n304
+-10001 0
+-11110 0
+1-0110 0
+1-1010 0
+.names new_n304 new_n276 psh1 psh2 new_n305
+-101 1
+1-00 1
+.names new_n108 new_n110 new_n112 new_n196 new_n306
+0001 1
+0111 1
+1011 1
+1101 1
+.names new_n169 new_n173 new_n213 new_n172 new_n307
+-000 1
+0-00 1
+1101 1
+.names new_n313 new_n309 new_n173 new_n190 popsel3 popsel2 po0
+--1000 1
+--1101 1
+-1-001 1
+-1-110 1
+1---10 1
+.names new_n312 new_n310 psh0 new_n309
+-11 1
+1-0 1
+.names new_n311 new_n292 psh1 psh2 new_n305 new_n310
+--0-0 1
+-0-00 1
+0--10 1
+.names pinb0 pind0 pmusel1 pmusel2 pmusel3 pmusel4 new_n311
+-10001 0
+-11110 0
+1-0110 0
+1-1010 0
+.names new_n311 new_n298 new_n282 new_n250 psh2 psh1 new_n312
+---011 1
+--0-10 1
+-0--01 1
+0---00 1
+.names new_n113 new_n114 pmusel4 new_n115 new_n196 new_n313
+--101 1
+-0011 1
+01-01 1
+1-011 1
+.names new_n315 new_n191 new_n319 po10
+--1 1
+01- 1
+.names new_n316 new_n142 new_n153 new_n194 popsel1 popsel0 new_n315
+--1101 0
+--1110 0
+-00001 0
+-00010 0
+-1-101 0
+-1-110 0
+0---00 0
+.names psh1 new_n242 new_n318 new_n240 new_n317 psh0 new_n316
+---001 0
+-00--0 0
+1---01 0
+.names new_n243 new_n188 psh2 psh1 new_n317
+-101 1
+1-11 1
+.names new_n187 new_n185 psh2 psh1 new_n318
+-101 1
+1-11 1
+.names new_n316 new_n320 new_n235 popsel3 new_n190 popsel2 new_n319
+-00000 1
+-00011 1
+0--001 1
+.names new_n174 new_n169 new_n320
+00 1
+11 1
+.end

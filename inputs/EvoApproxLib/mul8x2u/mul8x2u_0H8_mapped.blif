@@ -1,0 +1,25 @@
+# Benchmark "mul8x2u
+.model mul8x2u
+.inputs A[0] A[1] A[2] A[3] A[4] A[5] A[6] A[7] B[0] B[1]
+.outputs O[0] O[1] O[2] O[3] O[4] O[5] O[6] O[7] O[8] O[9]
+.names A[7] B[1] O[0]
+11 1
+.names A[6] B[0] O[3]
+11 1
+.names O[1]
+ 0
+.names O[2]
+ 0
+.names O[9]
+ 0
+.names A[6] B[0] O[4]
+11 1
+.names A[7] B[1] O[5]
+11 1
+.names A[7] B[1] O[6]
+11 1
+.names A[6] B[0] O[7]
+11 1
+.names A[7] B[1] O[8]
+11 1
+.end

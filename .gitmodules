@@ -1,0 +1,3 @@
+[submodule "utils/abc"]
+	path = utils/abc
+	url = git@github.com:berkeley-abc/abc.git

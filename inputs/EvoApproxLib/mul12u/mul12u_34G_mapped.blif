@@ -1,0 +1,55 @@
+# Benchmark "mul12u
+.model mul12u
+.inputs A[0] A[1] A[2] A[3] A[4] A[5] A[6] A[7] A[8] A[9] A[10] A[11] B[0] \
+ B[1] B[2] B[3] B[4] B[5] B[6] B[7] B[8] B[9] B[10] B[11]
+.outputs Z[0] Z[1] Z[2] Z[3] Z[4] Z[5] Z[6] Z[7] Z[8] Z[9] Z[10] Z[11] \
+ Z[12] Z[13] Z[14] Z[15] Z[16] Z[17] Z[18] Z[19] Z[20] Z[21] Z[22] Z[23]
+.names A[11] B[11] Z[22]
+11 1
+.names Z[0]
+ 0
+.names Z[1]
+ 0
+.names Z[2]
+ 0
+.names Z[3]
+ 0
+.names Z[4]
+ 0
+.names Z[5]
+ 0
+.names Z[6]
+ 0
+.names Z[7]
+ 0
+.names Z[8]
+ 0
+.names Z[9]
+ 0
+.names Z[10]
+ 0
+.names Z[11]
+ 0
+.names Z[12]
+ 0
+.names Z[13]
+ 0
+.names Z[14]
+ 0
+.names Z[15]
+ 0
+.names Z[16]
+ 0
+.names Z[17]
+ 0
+.names Z[18]
+ 0
+.names Z[19]
+ 0
+.names Z[20]
+ 0
+.names Z[21]
+ 0
+.names Z[23]
+ 0
+.end

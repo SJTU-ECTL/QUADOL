@@ -1,0 +1,73 @@
+# Benchmark "mul16u
+.model mul16u
+.inputs A[0] A[1] A[2] A[3] A[4] A[5] A[6] A[7] A[8] A[9] A[10] A[11] A[12] \
+ A[13] A[14] A[15] B[0] B[1] B[2] B[3] B[4] B[5] B[6] B[7] B[8] B[9] B[10] \
+ B[11] B[12] B[13] B[14] B[15]
+.outputs O[0] O[1] O[2] O[3] O[4] O[5] O[6] O[7] O[8] O[9] O[10] O[11] \
+ O[12] O[13] O[14] O[15] O[16] O[17] O[18] O[19] O[20] O[21] O[22] O[23] \
+ O[24] O[25] O[26] O[27] O[28] O[29] O[30] O[31]
+.names A[15] B[14] O[29]
+11 1
+.names A[15] B[15] O[30]
+11 1
+.names O[0]
+ 0
+.names O[1]
+ 0
+.names O[2]
+ 0
+.names O[3]
+ 0
+.names O[4]
+ 0
+.names O[5]
+ 0
+.names O[6]
+ 0
+.names O[7]
+ 0
+.names O[8]
+ 0
+.names O[9]
+ 0
+.names O[10]
+ 0
+.names O[11]
+ 0
+.names O[12]
+ 0
+.names O[13]
+ 0
+.names O[14]
+ 0
+.names O[15]
+ 0
+.names O[16]
+ 0
+.names O[17]
+ 0
+.names O[18]
+ 0
+.names O[19]
+ 0
+.names O[20]
+ 0
+.names O[21]
+ 0
+.names O[22]
+ 0
+.names O[23]
+ 0
+.names O[24]
+ 0
+.names O[25]
+ 0
+.names O[26]
+ 0
+.names O[27]
+ 0
+.names O[28]
+ 0
+.names O[31]
+ 0
+.end
